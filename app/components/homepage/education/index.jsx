@@ -1,6 +1,4 @@
-// @flow strict
 import Image from "next/image";
-
 import { educations } from "@/utils/data/educations";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
@@ -30,7 +28,7 @@ function Education() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Educations
+            EDUCATION
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
